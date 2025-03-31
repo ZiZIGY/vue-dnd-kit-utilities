@@ -1,6 +1,6 @@
 {
   "name": "@vue-dnd-kit/utilities",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Utilities for Vue DnD Kit - a lightweight Vue 3 library for building performant and accessible drag and drop interfaces",
   "author": "ZiZIGY",
   "license": "MIT",
@@ -33,14 +33,14 @@
     "lint": "eslint src --ext .ts,.vue",
     "prepublish": "npm run build"
   },
-  "main": "dist/vue-dnd-kit-core.cjs.js",
-  "module": "dist/vue-dnd-kit-core.es.js",
+  "main": "dist/vue-dnd-kit-utilities.cjs.js",
+  "module": "dist/vue-dnd-kit-utilities.es.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/vue-dnd-kit-core.es.js",
-      "require": "./dist/vue-dnd-kit-core.cjs.js"
+      "import": "./dist/vue-dnd-kit-utilities.es.js",
+      "require": "./dist/vue-dnd-kit-utilities.cjs.js"
     }
   },
   "files": [
