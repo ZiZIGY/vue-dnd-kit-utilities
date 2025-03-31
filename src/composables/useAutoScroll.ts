@@ -1,6 +1,7 @@
-import type { IAutoScrollOptions, IPoint } from '../types';
 import { ref, watch } from 'vue';
 
+import type { IAutoScrollOptions } from '../types';
+import type { IPoint } from '@vue-dnd-kit/core';
 import type { Ref } from 'vue';
 
 /**

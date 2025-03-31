@@ -1,5 +1,5 @@
 import { computed, type Ref } from 'vue';
-import type { IPoint } from '../types';
+import type { IPoint } from '@vue-dnd-kit/core';
 import { getDirection as _getDirection } from '../utils';
 
 /**

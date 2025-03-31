@@ -1,3 +1,5 @@
+import type { IPoint } from '@vue-dnd-kit/core';
+
 export const getDelta = (pointA: IPoint, pointB: IPoint): IPoint => ({
   x: pointB.x - pointA.x,
   y: pointB.y - pointA.y,
@@ -13,12 +15,6 @@ export const getDirection = (
   if (deg > 45 && deg < 135) return 'down';
   if (deg >= 135 || deg <= -135) return 'left';
   return 'up';
-};
-
-export const getDistance = (pointA: IPoint, pointB: IPoint): number => {
-  const dx = pointB.x - pointA.x;
-  const dy = pointB.y - pointA.y;
-  return Math.sqrt(dx * dx + dy * dy);
 };
 
 export const getAngle = (pointA: IPoint, pointB: IPoint): number => {

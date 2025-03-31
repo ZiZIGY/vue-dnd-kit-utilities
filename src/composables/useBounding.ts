@@ -1,7 +1,5 @@
 import { onBeforeUnmount, shallowRef, watch, type Ref } from 'vue';
-
-import type { IBoundingBox } from '../types';
-import { getBoundingBox } from '../utils';
+import { type IBoundingBox, getBoundingBox } from '@vue-dnd-kit/core';
 
 interface UseBoundingOptions {
   reset?: boolean;
