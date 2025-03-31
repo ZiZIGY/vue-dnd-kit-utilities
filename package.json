@@ -1,6 +1,6 @@
 {
   "name": "@vue-dnd-kit/utilities",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Utilities for Vue DnD Kit - a lightweight Vue 3 library for building performant and accessible drag and drop interfaces",
   "author": "ZiZIGY",
   "license": "MIT",
